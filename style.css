@@ -13,7 +13,16 @@ body {
             overflow-x: hidden;
             padding: 20px;
 }
- .right {
+       .container3 {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        height: 100vh;
+        }
+
+
+
+.right {
             left: 50%;
         }
 
