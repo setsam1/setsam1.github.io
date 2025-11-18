@@ -79,8 +79,7 @@ p2 {
 
 
 @media (max-width: 760px) {
-    .container,
-    .container2 {
+    .container{
         flex-direction: column; /* 가로 -> 세로 배치 변경 */
         height: auto;
         overflow-y: auto;
