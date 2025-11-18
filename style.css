@@ -75,4 +75,17 @@ p2 {
   margin-top: 2rem;
   font-size: 10px;
   color: #555;
-  cursor: pointer;
+  cursor: pointer;}
+
+
+@media (max-width: 760px) {
+    .container {
+        flex-direction: column; /* 가로 -> 세로 배치 변경 */
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .half {
+        width: 100% !important; /* 가로폭 100% */
+        overflow-y: scroll;
+    }
