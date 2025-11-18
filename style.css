@@ -62,7 +62,15 @@ p2 {
 
 }
 
+p3 {
+  font-size: 13.8px;
+  max-width: 300px;
+  line-height: 1.2;
+  font-family: 'Karla', sans-serif;
+  font-weight: 350;
+  letter-spacing: -0.02em;
 
+}
 
 .email-link {
   margin-top: 2rem;
