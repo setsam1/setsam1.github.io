@@ -87,10 +87,13 @@ p3 {
 
 
 @media  (max-width: 760px) {
-    .right{
+    .container3{
         flex-direction: column; /* 가로 -> 세로 배치 변경 */
         height: auto;
         overflow-y: auto;
     }
 }
-
+    .half {
+        width: 100% !important; /* 가로폭 100% */
+        overflow-y: scroll;
+    }
