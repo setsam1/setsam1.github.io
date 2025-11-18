@@ -96,15 +96,20 @@ p3 {
 
 
 @media  (max-width: 760px) {
-    .container3{
-        flex-direction: column; /* 가로 -> 세로 배치 변경 */
+    .container3 {
+        flex-direction: column;  /* 좌우 → 세로 */
         height: auto;
-        overflow-y: auto;
     }
 
     .half {
-        width: 100% !important; /* 가로폭 100% */
-        overflow-y: scroll;
+        position: relative;  /* absolute → relative */
+        width: 100%;
+        height: auto;
+        left: 0;
     }
 
+    .container2 {
+        left: 0;
+        max-width: 100%;
+    }
 }
