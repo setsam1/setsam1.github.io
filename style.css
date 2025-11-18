@@ -86,7 +86,7 @@ p3 {
   cursor: pointer;}
 
 
-@media (max-width: 800px) {
+@media {
     .container2{
         flex-direction: column; /* 가로 -> 세로 배치 변경 */
         height: auto;
